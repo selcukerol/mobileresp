@@ -1,0 +1,147 @@
+h1 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+    }
+
+    ul li {
+        float: right;
+    }
+
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .image {
+        width: 600px;
+        height: 600px;
+        margin: 20px;
+        float: left;
+    }
+
+    #image1 {background-image: url(selcuk1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+
+    #image2 {background-image: url(selcuk2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+    }
+
+    #image3 {background-image: url(selcuk3.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+    }
+
+    #image4 {background-image: url(beer4.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat; 
+            
+    }
+
+    #skills {
+            width: 1000px;
+            border: 1px solid none;
+            display: inline-block;
+            margin: 50px 50px;
+            
+    }
+
+    #about {
+            width: 500px;
+            border: 1px solid none;
+            display: block;
+            margin: 50px 50px;
+            float: right;
+    }
+
+    #contact {
+            width: 500px;
+            border: 1px solid none;
+            display: block;
+            margin: 600px 50px 50px 50px;
+            
+    }
+
+
+/* Large desktop */
+
+@media (max-width: 1300px){
+    .image {
+        width: 44vw;
+        height: 44vw;
+        margin: 2vw;
+        float: left;   
+    }
+}
+
+    
+    
+
+/* Portrait table to landscape and desktop */
+@media (max-width: 750px){
+    h1{
+        font-size: 24px;
+    }
+    .image {
+        width: 44vw;
+        height: 44vw;
+        margin: 2vw;
+        float: left;   
+    }
+    #about {
+        width: 50%;
+        margin: 50px;
+        float: none;
+
+    }
+
+    #contact {
+        margin: 50px 50px 50px 50px;
+        float: none;
+    }
+   
+}    
+
+/* Landscape phones and down */
+@media (max-width: 400px){
+    .image {
+        width: 44vw;
+        height: 44vw;
+        margin: 2vw;
+        float: left;   
+    }
+
+    #about {
+        width: 50%;
+        margin: 50px;
+        float: none;
+
+    }
+
+    #contact {
+        margin: 50px 50px 50px 50px;
+        float: none;
+    }
+    
+}
